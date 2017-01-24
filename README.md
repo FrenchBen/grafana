@@ -30,3 +30,9 @@ Try it out by navigating to http://localhost:3000/dashboard/db/docker-and-system
 
 _The dashboard was taken from https://grafana.net/dashboards/893, but feel free to add any dashboard you want_
 
+---
+# Build Docker image
+
+```
+docker build -t custom-grafana .
+```
