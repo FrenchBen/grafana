@@ -2,7 +2,6 @@ version: '2'
 services:
   prometheus:
     image: frenchben/prometheus
-    network_mode: "bridge"
     ports:
       - 9090:9090
   grafana:

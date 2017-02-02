@@ -24,7 +24,7 @@ docker-compose up -d
 ## <HACK> For Docker share its metrics, with Grafana, an actual prometheus daemon is needed
 Add a small listener for the metrics, via prom/prometheus:
 ```
-docker run -d --net bridge --name prometheus -p 9090:9090 frenchben/prometheus
+docker run -d --name prometheus -p 9090:9090 frenchben/prometheus
 ```
 You can verify that the above worked, by visiting http://localhost:9090/metrics - You should see a prometheus-like output.
 
