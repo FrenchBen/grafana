@@ -8,7 +8,7 @@ With the introduction of Docker 1.13, docker metrics are now available as a prom
 In the Preference/Settings panel, update the daemon to include metrics:
 ```
 {
-	"metrics-addr":"0.0.0.0:1337"
+	"metrics-addr":"0.0.0.0:9323"
 }
 ```
 Be careful with the above, as an incorrect setting will prevent docker from starting. 
